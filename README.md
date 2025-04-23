@@ -27,7 +27,7 @@ A detailed mapping of these principles and patterns—including code locations
 ## ⚙️ Setup Instructions
 1. **Clone the repository:**
    ```bash
-   git clone 
+   git clone https://github.com/ADITYA-J1/A4Restaurant-MVC.git
    cd A4RestaurantSpringBoot-FINAL
    ```
 2. **Configure the database:**
