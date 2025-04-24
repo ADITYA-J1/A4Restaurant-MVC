@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS order_status_history (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    order_id BIGINT NOT NULL,
+    old_status VARCHAR(50),
+    new_status VARCHAR(50),
+    changed_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
